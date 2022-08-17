@@ -199,7 +199,7 @@ color: var(--secondary);
 }
 .card img{
     width:100%;
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
 }
 .card i{
     color: goldenrod;
@@ -217,4 +217,17 @@ color: var(--secondary);
 .card:hover img, .card:hover h1{
     width: 80%;
     color:var(--primary);
+}
+.card::before{
+    content: '20% Off';
+    width: 30%;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--primary);
+    padding: 0px 4px;
+    transform: rotate(-20deg);
 }
