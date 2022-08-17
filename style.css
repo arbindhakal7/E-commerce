@@ -183,3 +183,23 @@ color: var(--secondary);
     color: darkgoldenrod;
     margin: 15px 0px;
 }
+.card-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: 4rem 0;
+}
+
+.card-container .card{
+    flex-basis: 20%;
+    padding: 0.8rem;
+    position: relative;
+}
+.card img{
+    width:100%
+}
+.card i{
+    color: goldenrod
+}
