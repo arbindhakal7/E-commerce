@@ -34,3 +34,20 @@ header{
     font-weight:bold ;
     margin: 0px 5px;
 }
+
+.right{
+    flex-basis: 50%;
+}
+.right i{
+    font-size: 20px;
+    margin: 0px 15px;
+    background-color: var(--primary);
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.nav1 .right i:hover{
+    transform: rotate(360deg);
+}
