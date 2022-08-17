@@ -16,5 +16,21 @@ header{
 }
 .nav1{
     width: 100%;
-    height:80px ;
+    height: 80px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 2px 0px 3px grey;
+    text-align: center;
+}
+.nav1 .left{
+    flex-basis: 50%;
+    letter-spacing: 2px;
+}
+.nav1 .left a{
+    text-decoration: none;
+    color: var(--primary);
+    font-weight:bold ;
+    margin: 0px 5px;
 }
