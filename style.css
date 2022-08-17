@@ -5,3 +5,8 @@ body{
     /* font-family: 'Akaya Telivigala', cursive; */
 
 }
+:root{
+    --primary:indianred;
+    --secondary:rgba(15,10,29,0.849);
+    --light:#2f3640;
+}
