@@ -201,5 +201,14 @@ color: var(--secondary);
     width:100%
 }
 .card i{
-    color: goldenrod
+    color: goldenrod;
+    margin: 10px 0;
+}
+.card button{
+    color: white;
+    background-color: var(--secondary);
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    padding: 5px 20px;
 }
