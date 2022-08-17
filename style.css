@@ -2,8 +2,8 @@
 body{
     scroll-behavior: smooth;
     font-family: 'Roboto', sans-serif;
-    /* font-family: 'Akaya Telivigala', cursive; */
-
+    font-family: 'Akaya Telivigala', cursive;
+/* this upper akaya is used in featured-text */
 }
 :root{
     --primary:indianred;
@@ -152,4 +152,18 @@ color: var(--secondary);
     position: absolute;
     top: 50%;
     left: 10% ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.featured-text button{
+    padding: 10px 20px;
+    border:none;
+    outline: none;
+    background-color: var(--secondary);
+    margin: 20px 0px;
+    color: white;
 }
