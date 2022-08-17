@@ -137,3 +137,19 @@ color: var(--secondary);
     display: block;
 }
 
+.featured{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.8) 10%, rgba(255,255,255,0.2)),
+     url('img/cover.jpg');
+     /* background: url('img/cover.jpg'); */
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.featured-text{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 10% ;
+}
