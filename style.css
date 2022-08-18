@@ -6,7 +6,7 @@ body{
 /* this upper akaya is used in featured-text */
 }
 :root{
-    --primary:indianred;
+    --primary:orangered;
     --secondary:rgba(15,10,29,0.849);
     --light:#2f3640;
 }
@@ -109,7 +109,7 @@ color: var(--secondary);
 }
 .nav3 ul li a{
     text-decoration: none;
-    color: indianred;
+    color: var(--primary);
     font-weight: 500;
     display: block;
 }
@@ -181,7 +181,7 @@ color: var(--secondary);
     color: var(--secondary);
 }
 .product-intro p{
-    color: darkgoldenrod;
+    color: brown;
     margin: 15px 0px;
     text-align: center;
 }
@@ -216,8 +216,12 @@ color: var(--secondary);
     padding: 5px 20px;
 }
 
-.card:hover img, .card:hover h1{
-    width: 80%;
+.card:hover h1{
+    width: 120%;
+    color:var(--primary);
+}
+.card:hover button{
+    width: 53%;
     color:var(--primary);
 }
 .card::before{
