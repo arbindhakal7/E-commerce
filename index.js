@@ -15,6 +15,7 @@
             //           },
             //         });
 
+            
             const swiper = new Swiper('.swiper-container', {
                 effect: 'coverflow',
                 centeredSlides: true,
